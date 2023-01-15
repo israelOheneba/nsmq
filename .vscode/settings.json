@@ -1,0 +1,6 @@
+{
+    "window.autoDetectColorScheme": false,
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "workbench.preferredHighContrastColorTheme": "Visual Studio Dark",
+    "editor.cursorStyle": "line"
+}

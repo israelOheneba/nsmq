@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <section id="header">
+        <p>My Testing Site</p>
+    </section>
+    <section id="signin" class="form" class="active">
+        <h4>Log in here <span id="close" onclick="">X</span></h4>
+        <input type="email" placeholder="Your email">
+        <input type="password" placeholder="Your Password">
+        <button>Log In</button>
+        <p>Don't have an account? <a href="" id="swich">Sign Up</a>
+    </section>
+    <div id="ac">account</div>
+
+    <section id="signup" class="form">
+        <h4>Sign Up here <span id="close1" >x</span></h4>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your email">
+        <input type="password" placeholder="Your Password">
+        <button>Sign Up</button>
+        <p>Already have an account? <a href="" id="swich2">Sign In</a></span></p>
+    </section>
+
+    <script>
+        var ac=document.getElementById('ac')
+        var close=document.getElementById('close');
+        var login=document.getElementById('signin');
+        var swich=document.getElementById('swich');
+
+        var signup=document.getElementById('signup');
+        var swich2=document.getElementById('switch2');
+
+        if (ac) {
+            ac.addEventListener('click', ()=> {
+                login.classList.add('active');
+            })
+        };
+
+        if (close) {
+            close.addEventListener('click', ()=> {
+                login.classList.remove('active');
+            })
+        }
+
+        if (swich) {
+            swich.addEventListener('click', ()=> {
+                signup.classList.add('active2');
+                login.classList.remove('active');
+            })
+        };
+
+        
+    </script>
+    
+</body>
+</html>
