@@ -539,9 +539,9 @@ footer .copyright {
 
 
 /* shop page */
-#page-header {
+.about-header {
     letter-spacing: 1px;
-    background-image: url("/img/banner/b1.jpg");
+    background-image: url("banner.png");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -641,9 +641,7 @@ footer .copyright {
 
 
 /* about page */
-#page-header.about-header {
-    background-image: url('/img/about/banner.png');
-}
+
 
 #about-head img {
     width: 50%;
@@ -682,6 +680,7 @@ footer .copyright {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: #e3e6f3;
 }
 
 #contact-details .details {
@@ -723,10 +722,7 @@ footer .copyright {
     font-size: 14px;
 }
 
-#contact-details .map {
-    width: 55%;
-    height: 400px;
-}
+
 
 
 
@@ -736,6 +732,7 @@ footer .copyright {
     margin: 30px;
     padding: 80px;
     border: 1px solid #e1e1e1;
+    background: #e3e6f3;
 }
 
 #form-details form {
@@ -856,7 +853,7 @@ footer .copyright {
 
 /* home page */
 #mat {
-    background-image: url(/img/hero4.png);
+    background-image: url(hero4.png);
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -872,6 +869,7 @@ footer .copyright {
 #mat #cont {
     width: 50%;
     height: auto;
+    background-image: url(hero4.png);
 }
 
 #mat h5 {
@@ -932,7 +930,7 @@ footer .copyright {
 
 /* quize */
 #qui {
-    background-image: url(/img/hero4.png);
+    background-image: url(hero4.png);
     height: auto;
     width: 100%;
     background-size: cover;
@@ -949,10 +947,12 @@ footer .copyright {
 #quize {
     width: 100%;
     height: 100%;
+    
 }
 
 #quize .paper {
     width: 50%;
+    background: #e3e6f3;
 }
 
 #quize .paper p {
@@ -998,21 +998,7 @@ footer .copyright {
     margin: 15px 0;
 }
 
-#vids .vid-box h6 {
-    font-size: 16px;
-    position: absolute;
-    top: 95%;
-    right: 0;
-}
 
-#vids .vid-box:hover {
-    box-shadow: 10px 10px 54px rgba(52, 48, 129, 0.11);
-}
-
-#vids .vid-box video {
-    width: 100%;
-    height: 100%;
-}
 
 /* subject */
 #subject {
